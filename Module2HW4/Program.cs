@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Module2HW4.Model;
+using Module2HW4.Model.WarmBlooded;
 
 namespace Module2HW4
 {
@@ -6,7 +7,15 @@ namespace Module2HW4
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var animals = new Animal[]
+                        {
+                             new Bear() { Name = "hhh", Weight = 100 }
+                        };
+
+            foreach (var item in animals)
+            {
+                System.Console.WriteLine(item.Region);
+            }
         }
     }
 }
