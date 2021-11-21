@@ -7,15 +7,6 @@ namespace Module2HW4
     {
         public static void Main(string[] args)
         {
-            var animals = new Animal[]
-                        {
-                             new Bear() { Name = "hhh", Weight = 100 }
-                        };
-
-            foreach (var item in animals)
-            {
-                System.Console.WriteLine(item.Blood);
-            }
         }
     }
 }
