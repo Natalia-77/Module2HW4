@@ -14,7 +14,7 @@ namespace Module2HW4
 
             foreach (var item in animals)
             {
-                System.Console.WriteLine(item.Region);
+                System.Console.WriteLine(item.Blood);
             }
         }
     }
