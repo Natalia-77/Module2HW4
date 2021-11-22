@@ -2,7 +2,6 @@
 {
     public abstract class Birds : Warmblooded
     {
-
         // наличие клюва.
         public abstract bool IsHasBeak { get; }
     }

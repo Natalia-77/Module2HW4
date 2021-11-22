@@ -6,6 +6,5 @@ namespace Module2HW4.Model.ColdBlooded
     {
         public override BloodedType Blood => BloodedType.Cold;
         public override BodyTemperature Temperature => BodyTemperature.Unstable;
-
     }
 }

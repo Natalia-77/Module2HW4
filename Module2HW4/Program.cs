@@ -1,7 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Module2HW4.Model;
-using Module2HW4.Model.WarmBlooded;
-namespace Module2HW4
+﻿namespace Module2HW4
 {
     public class Program
     {
