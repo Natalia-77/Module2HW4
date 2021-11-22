@@ -1,20 +1,20 @@
-﻿using Module2HW4.Model;
+﻿using System;
+using Module2HW4.Model;
 using Module2HW4.Service.Abstractions;
 
 namespace Module2HW4.Service
 {
     public class SearchService : ISearchService
     {
-        public Animal[] FindAnimals(Animal[] animals, string name)
+        public Animal FindAnimals(Animal[] animals, string name)
         {
-            var index = 0;
-            var findanimal = new Animal[animals.Length];
+            Animal findanimal = null;
 
             for (var i = 0; i < animals.Length; i++)
             {
                 if (animals[i].Name == name || animals[i].Name.ToLower() == name)
                 {
-                    findanimal[index++] = animals[i];
+                    findanimal = animals[i];
                     break;
                 }
                 else
@@ -24,6 +24,19 @@ namespace Module2HW4.Service
             }
 
             return findanimal;
+        }
+
+        public Animal FindAnimalByType(Animal[] animals, Type type)
+        {
+            foreach (var animal in animals)
+            {
+                if (animal.GetType() == type)
+                {
+                    return animal;
+                }
+            }
+
+            return null;
         }
     }
 }

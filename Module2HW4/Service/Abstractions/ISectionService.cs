@@ -6,5 +6,6 @@ namespace Module2HW4.Service.Abstractions
     {
         public void AddAnimalToSection();
         public void SortAnimalByName();
+        public void SortAnimalByWeight();
     }
 }

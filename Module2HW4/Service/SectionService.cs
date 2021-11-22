@@ -31,5 +31,10 @@ namespace Module2HW4.Service
         {
             Array.Sort(_sectionProvider.AnimalInSection, new AninalComparer());
         }
+
+        public void SortAnimalByWeight()
+        {
+            Array.Sort(_sectionProvider.AnimalInSection, new AnimalWeightComparer());
+        }
     }
 }

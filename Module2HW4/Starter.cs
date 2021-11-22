@@ -15,6 +15,7 @@ namespace Module2HW4
                 .AddSingleton<ISectionProvider, SectionProvider>()
                 .AddSingleton<IAnimalProvider, AnimalProvider>()
                 .AddTransient<ISectionService, SectionService>()
+                .AddTransient<ICountService, CountService>()
                 .AddTransient<Application>()
                 .BuildServiceProvider();
 

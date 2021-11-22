@@ -4,6 +4,8 @@ namespace Module2HW4.Model.WarmBlooded
 {
     public abstract class Mammals : Warmblooded
     {
-        public override bool IsHasBeak => false;
+
+        // наличие клюва.
+        public abstract bool IsHasBeak { get; }
     }
 }

@@ -11,5 +11,7 @@ namespace Module2HW4.Model.WarmBlooded
         }
 
         public TigerType TigerType { get; set; }
+
+        public override bool IsHasBeak => false;
     }
 }

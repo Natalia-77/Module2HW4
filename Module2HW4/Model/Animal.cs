@@ -11,10 +11,5 @@ namespace Module2HW4.Model
         public CoverType Cover { get; set; }
         public RegionType Region { get; set; }
 
-        // наличие жабров.
-        // public abstract bool IsHasGills { get; }
-
-        // наличие клюва.
-        public abstract bool IsHasBeak { get; }
     }
 }

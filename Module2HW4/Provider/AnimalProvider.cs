@@ -1,5 +1,4 @@
-﻿using System;
-using Module2HW4.Configs.Enum;
+﻿using Module2HW4.Configs.Enum;
 using Module2HW4.Model;
 using Module2HW4.Model.WarmBlooded;
 using Module2HW4.Provider.Abstractions;
