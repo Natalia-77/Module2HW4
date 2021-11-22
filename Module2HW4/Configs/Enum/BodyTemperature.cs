@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW4.Config.Enum
+namespace Module2HW4.Configs.Enum
 {
-    public enum EagleType
+    public enum BodyTemperature
     {
-        Bald,
-        Golden
+        Stable,
+        Unstable
     }
 }

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW4.Config.Enum
+namespace Module2HW4.Configs.Enum
 {
-    public enum CoverType
+    public enum RegionType
     {
-        Feather,
-        Scales,
-        Wool,
-        Skin
+        Africa,
+        America,
+        Asia,
+        East
     }
 }

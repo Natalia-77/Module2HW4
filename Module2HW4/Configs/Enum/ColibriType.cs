@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW4.Config.Enum
+namespace Module2HW4.Configs.Enum
 {
-    public enum BearType
+    public enum ColibriType
     {
-        White,
-        Black,
-        Panda
+        Topaz,
+        Mango
     }
 }

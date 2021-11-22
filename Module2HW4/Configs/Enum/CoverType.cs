@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module2HW4.Config.Enum
+namespace Module2HW4.Configs.Enum
 {
-    public enum BloodedType
+    public enum CoverType
     {
-        Warm,
-        Cold
+        Feather,
+        Scales,
+        Wool,
+        Skin
     }
 }

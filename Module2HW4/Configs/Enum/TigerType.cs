@@ -1,4 +1,4 @@
-﻿namespace Module2HW4.Config.Enum
+﻿namespace Module2HW4.Configs.Enum
 {
     public enum TigerType
     {

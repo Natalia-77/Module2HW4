@@ -1,4 +1,4 @@
-﻿using Module2HW4.Config.Enum;
+﻿using Module2HW4.Configs.Enum;
 
 namespace Module2HW4.Model.WarmBlooded
 {

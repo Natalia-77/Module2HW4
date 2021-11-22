@@ -1,4 +1,4 @@
-﻿using Module2HW4.Config.Enum;
+﻿using Module2HW4.Configs.Enum;
 
 namespace Module2HW4.Model.WarmBlooded
 {
@@ -10,6 +10,6 @@ namespace Module2HW4.Model.WarmBlooded
             Region = RegionType.Asia;
         }
 
-        public BearType BearType { get; }
+        public BearType BearType { get; set; }
     }
 }
