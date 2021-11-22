@@ -4,14 +4,14 @@ using Module2HW4.Service.Abstractions;
 
 namespace Module2HW4
 {
-    public class Application
+    public class Startup
     {
         private readonly ISectionProvider _sectionProvider;
         private readonly ISectionService _sectionService;
         private readonly ISearchService _searchService;
         private readonly ICountService _countService;
 
-        public Application(ISectionProvider sectionProvider, ISectionService sectionService, ISearchService searchService, ICountService countService)
+        public Startup(ISectionProvider sectionProvider, ISectionService sectionService, ISearchService searchService, ICountService countService)
         {
             _sectionProvider = sectionProvider;
             _sectionService = sectionService;
@@ -19,7 +19,7 @@ namespace Module2HW4
             _countService = countService;
         }
 
-        public void Start()
+        public void Run()
         {
             _sectionService.AddAnimalToSection();
             _sectionService.SortAnimalByName();
